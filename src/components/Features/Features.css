@@ -1,0 +1,54 @@
+.features {
+    padding: 5rem 1rem;
+    background-color: white;
+  }
+  
+  .features-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #111827;
+  }
+  
+  .features-grid {
+    max-width: 80rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .feature-card {
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    transition: box-shadow 0.3s;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .feature-card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-icon {
+    color: #2563eb;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-icon svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .feature-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #111827;
+  }
+  
+  .feature-description {
+    color: #4b5563;
+  }
+  
