@@ -6,8 +6,8 @@ export const Features = () => {
   const features = [
     {
       icon: <Phone />,
-      title: '24/7 Availability',
-      description: 'Always ready to assist your customers, any time of day or night.'
+      title: 'Advanced AI Technology',
+      description: 'Our state-of-the-art AI handles complex customer inquiries with ease and precision.'
     },
     {
       icon: <MessageSquare />,
